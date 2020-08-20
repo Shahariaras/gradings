@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="box">
+        <div class="box2">
+            <div class="mm"><h1>Mark Sheet</h1></div>
+            <div class="box3"></div>
+            
+        </div>
+        <br>
+        <h2 id="namee"></h2>
+        <br>
+        <div class="mm">
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Mark</th>
+                    <th>Grad</th>
+                </tr>
+                <tr>
+                    <td>Bangla</td>
+                    <td id="bb"></td>
+                    <td id="g1"></td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td id="ee"></td>
+                    <td id="g2"></td>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td id="mm"></td>
+                    <td id="g3"></td>
+                </tr>
+            </table>
+        </div>
+
+       
+    </div>
+
+
+    <script>
+
+        var name = prompt('Enter your name')
+        var b = prompt('Enter your Bangla mark')
+        var e = prompt('Enter your English mark')
+        var m = prompt('Enter your Math mark')
+
+        document.getElementById("namee").innerHTML = (name)
+        
+        
+        if (b>=80 && b<=100){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("A+")
+        }
+        else if (b>=70 && b<=79){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("A")
+        }
+        else if (b>=60 && b<=69){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("A-")
+        }
+        else if (b>=50 && b<=59){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("B")
+        }
+        else if (b>=40 && b<=49){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("C")
+        }
+        else if (b>=33 && b<=39){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("D")
+        }
+        else if (b>=00 && b<=32){
+            document.getElementById("bb").innerHTML = (b)
+            document.getElementById("g1").innerHTML = ("A+")
+        }
+
+
+
+        if (e>=80 && e<=100){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("A+")
+        }
+        else if (e>=70 && e<=79){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("A")
+        }
+        else if (e>=60 && e<=69){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("A-")
+        }
+        else if (e>=50 && e<=59){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("B")
+        }
+        else if (e>=40 && e<=49){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("C")
+        }
+        else if (e>=33 && e<=39){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("D")
+        }
+        else if (e>=00 && e<=32){
+            document.getElementById("ee").innerHTML = (b)
+            document.getElementById("g2").innerHTML = ("A+")
+        }
+
+
+
+        if (m>=80 && m<=100){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("A+")
+        }
+        else if (m>=70 && m<=79){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("A")
+        }
+        else if (m>=60 && m<=69){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("A-")
+        }
+        else if (m>=50 && m<=59){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("B")
+        }
+        else if (m>=40 && m<=49){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("C")
+        }
+        else if (m>=33 && m<=39){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("D")
+        }
+        else if (m>=00 && m<=32){
+            document.getElementById("mm").innerHTML = (b)
+            document.getElementById("g3").innerHTML = ("A+")
+        }
+        </script>
+    
+</body>
+</html>
